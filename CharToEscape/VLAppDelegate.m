@@ -3,16 +3,12 @@
 //  CharToEscape
 //
 //  Created by Randy Thiemann on 23/05/13.
-//  Copyright (c) 2013 villadelfia. All rights reserved.
+//  Copyright (c) 2013 villadelfia.
 //
 
 #import "VLAppDelegate.h"
 
 @implementation VLAppDelegate
-
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification{
-    // Insert code here to initialize your application
-}
 
 - (void)controlTextDidChange:(NSNotification *)notification {
     if([notification object] == _fromField) {
@@ -27,4 +23,5 @@
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
     return YES;
 }
+
 @end

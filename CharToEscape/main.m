@@ -3,12 +3,11 @@
 //  CharToEscape
 //
 //  Created by Randy Thiemann on 23/05/13.
-//  Copyright (c) 2013 villadelfia. All rights reserved.
+//  Copyright (c) 2013 villadelfia.
 //
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     return NSApplicationMain(argc, (const char **)argv);
 }
