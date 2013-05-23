@@ -8,8 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface VLAppDelegate : NSObject <NSApplicationDelegate>
+@interface VLAppDelegate : NSObject <NSApplicationDelegate, NSTextFieldDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *fromField;
+@property (weak) IBOutlet NSTextField *toField;
 
 @end
