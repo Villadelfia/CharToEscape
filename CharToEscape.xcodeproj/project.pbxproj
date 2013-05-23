@@ -12,6 +12,7 @@
 		E69F8607174E4C8E0081A431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E69F8606174E4C8E0081A431 /* main.m */; };
 		E69F860E174E4C8E0081A431 /* VLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E69F860D174E4C8E0081A431 /* VLAppDelegate.m */; };
 		E69F8611174E4C8E0081A431 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69F860F174E4C8E0081A431 /* MainMenu.xib */; };
+		E69F8619174E64080081A431 /* VLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E69F8618174E64080081A431 /* VLTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		E69F860C174E4C8E0081A431 /* VLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLAppDelegate.h; sourceTree = "<group>"; };
 		E69F860D174E4C8E0081A431 /* VLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLAppDelegate.m; sourceTree = "<group>"; };
 		E69F8610174E4C8E0081A431 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E69F8617174E64080081A431 /* VLTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLTextField.h; sourceTree = "<group>"; };
+		E69F8618174E64080081A431 /* VLTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				E69F860D174E4C8E0081A431 /* VLAppDelegate.m */,
 				E69F860F174E4C8E0081A431 /* MainMenu.xib */,
 				E69F8601174E4C8E0081A431 /* Supporting Files */,
+				E69F8617174E64080081A431 /* VLTextField.h */,
+				E69F8618174E64080081A431 /* VLTextField.m */,
 			);
 			path = CharToEscape;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			files = (
 				E69F8607174E4C8E0081A431 /* main.m in Sources */,
 				E69F860E174E4C8E0081A431 /* VLAppDelegate.m in Sources */,
+				E69F8619174E64080081A431 /* VLTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,4 +24,8 @@
     return YES;
 }
 
+- (IBAction)copyIt:(id)sender {
+    [[NSPasteboard generalPasteboard] clearContents];
+    [[NSPasteboard generalPasteboard] setString:[_toField stringValue]  forType:NSStringPboardType];
+}
 @end
